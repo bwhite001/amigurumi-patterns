@@ -1,0 +1,21 @@
+{
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "description": "Downloads the pdf for the free amigurumi pattern on the fly.",
+    "host_permissions": [
+        "https://amigurumi.today/*"
+    ],
+    "icons": {
+        "16": "icons/favicon-16x16.png",
+        "32": "icons/favicon-32x32.png",
+        "144": "icons/android-chrome-144x144.png"
+    },
+    "manifest_version": 3,
+    "name": "Amigurumi Pattern Pdf",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "version": "0.1"
+}

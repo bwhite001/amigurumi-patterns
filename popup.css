@@ -1,0 +1,37 @@
+body {
+    width: 20rem;
+}
+img {
+    width: 300px;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background: #55555e;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-appearance: button;
+    padding: 10px 20px;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 1rem 0;
+}
+
+li {
+    padding: 0.25rem;
+}
+li:nth-child(odd) {
+    background: #80808030;
+}
+li:nth-child(even) {
+    background: #ffffff;
+}
+
+h3,
+p {
+    margin: 0;
+}
